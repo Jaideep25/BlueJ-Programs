@@ -10,26 +10,14 @@ class RecordPrg11
         q = in.nextDouble();
         if(q<=45)
             System.out.println("NO Tax");
-        else if(q>45 && q<=75)
-        {
+        else if(q>=46 && q<=75)
             c=475.0/100.0*q;
-        }
-        else if(q>75 && q<=125)
-        {
+        else if(q>=76 && q<=125)
             c=750.0/100.0*q;
-        }
-        else if(q>125 && q<=200)
-        {
+        else if(q>=126 && q<=200)
             c=1225.0/100.0*q;
-        }
-        else if(q>200 && q<=350)
-        {
-            c=1650.0/100.0*q;
-        }
         else
-        {
-            c=2000.0/100.0*q;
-        }
+            c=1650.0/100.0*q;
         System.out.println("Gallons of water consumed = "+q);
         System.out.println("Tax = \u20B9"+c);
     }
