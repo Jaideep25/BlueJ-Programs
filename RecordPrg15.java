@@ -17,20 +17,19 @@ class RecordPrg15
             num = no;
             int square=num*num;
             int sum=0;
+            
             while(square!=0)
             {
                 int a=square%10;
                 sum=sum+a;
                 square=square/10;
             }
+            
             if(sum==num)
-            {
                 System.out.println(num+" is a Neon Number.");
-            }
             else
-            {
                 System.out.println(num+" is not a Neon Number.");
-            }
+                
             break;
             
             case 2 : 
@@ -42,11 +41,14 @@ class RecordPrg15
                 ctr++;
                 n=n/10;
             }
+            
             if(ctr>0)
-            System.out.println(n+" is a Duck number.");
+            System.out.println(no+" is a Duck number.");
             else
-            System.out.println(n+" is not a Duck number."); 
+            System.out.println(no+" is not a Duck number."); 
+            
             break;
+            
             default :
             System.out.println("You haven't entered the correct choice");
         }
