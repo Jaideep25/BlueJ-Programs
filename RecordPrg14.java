@@ -27,12 +27,13 @@ class RecordPrg14
                 System.out.println("Enter the number");
                 int a = in.nextInt();
                 int i, sign = 1;
-                double ans = 0, s = 0, f=1;
+                double ans = 0, s = 1, f=1;
                 for(i=2; i<=20; i++)
                 {
                     f = f*i;
-                    ans = (a/f)*sign;
-                    sign = sign*-1;
+                    ans = (a/f)*s;
+                    s = s+ans;
+                    s = sign*-1;
                 }
                 System.out.println("The sum is = "+s);
                 break;

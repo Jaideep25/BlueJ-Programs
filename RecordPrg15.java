@@ -33,7 +33,7 @@ class RecordPrg15
             break;
             
             case 2 : 
-            int n=0, ctr=0;
+            int n, ctr=0;
             n = no;
             while(n!=0)
             {

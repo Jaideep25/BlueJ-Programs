@@ -29,6 +29,6 @@ class RecordPrg16
         System.out.println("No. of passengers with the age group 18 and above="+a18 );
         System.out.println("No. of passengers with the age group >than 5 and < than 18="+a5);
         System.out.println("No. of passengers with the age group < than 5="+ab5);
-        System.out.println("Total amount collected="+ticket_amt+ " Rs");
+        System.out.println("Total amount collected="+ticket_amt+ " Rs"); 
     }
 }
