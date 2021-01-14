@@ -28,7 +28,7 @@ class RecordPrg14
                 int a = in.nextInt();
                 int i, sign = 1;
                 double ans = 0, s = 1, f=1;
-                for(i=2; i<=20; i++)
+                for(i=2; i<=6; i++)
                 {
                     f = f*i;
                     ans = (a/f)*s;
