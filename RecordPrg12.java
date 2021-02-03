@@ -18,21 +18,18 @@ class RecordPrg12
             td=dp+ddc;
             flatprice=p-td;
             break;
-
             case 1:
             dp=2.0/100.0*p;
             ddc=1.0/100.0*p;
             td=dp+ddc;
             flatprice=p-td;
             break;
-
             case 2:
             dp=5.0/100.0*p;
             ddc=5.0/100.0*p;
             td=dp+ddc;
             flatprice=p-td;
             break;
-
             case 3:
             dp=7.5/100.0*p;
             ddc=10.0/100.0*p;
