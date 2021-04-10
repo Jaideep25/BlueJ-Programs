@@ -33,6 +33,6 @@ class Allowances
         gs=basic+da+sa;
         ns=gs-pf;
         System.out.println("Name\t\tBasic\t\tGross Salary\t\tNetSalary");
-        System.out.println(name+"\t\t"+basic+"\t\t"+gs+"\t\t"+ns);
+        System.out.println(name+"\t\t"+basic+"\t\t"+gs+"\t\t\t"+ns);
 }
 }
