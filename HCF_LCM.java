@@ -1,7 +1,7 @@
 import java.util.*;
 class HCF_LCM 
 {
-    public static void main()
+    public static void main(String args[])
     {
         int a, b, hcf = 0, lcm;
         String s = "";

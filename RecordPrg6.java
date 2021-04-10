@@ -1,6 +1,6 @@
 class RecordPrg6
 {
-    public static void main()
+    public static void main(String args[])
     {
         int p=4, q=3;int a=81, b=100, c=125, d=729;
         double x=35.89612, y=806.24, z=110.5;

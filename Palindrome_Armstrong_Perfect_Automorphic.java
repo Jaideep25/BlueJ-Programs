@@ -1,7 +1,7 @@
 import java.util.*;
 class Palindrome_Armstrong_Perfect_Automorphic
 {
-    public static void main()
+    public static void main(String args[])
     {
         int ch, n;
         Scanner in = new Scanner(System.in);

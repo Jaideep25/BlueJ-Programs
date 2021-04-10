@@ -30,7 +30,7 @@ class Rectangle
         System.out.println("Perimeter of the rectangle : "+perimeter);
         System.out.println("Length of Diagonal of the rectangle : "+diagonal);
     }
-    void main(){
+    void main(String args[]){
         Rectangle jai = new Rectangle();
         jai.inputData();
         jai.calculate();

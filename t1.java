@@ -1,7 +1,7 @@
 import java.util.*;
 class t1
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner in = new Scanner(System.in);
         char q;

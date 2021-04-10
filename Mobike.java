@@ -47,7 +47,7 @@ class Mobike
         System.out.println("Youe name is : "+name);
         System.out.println("The amount to be paid by you for the rent of the bike is : "+charge);
     }
-    void main(){
+    void main(String args[]){
         Mobike jai = new Mobike();
         jai.input();
         jai.compute();

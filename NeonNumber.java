@@ -1,7 +1,7 @@
 import java.util.*;
 public class NeonNumber
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner ob=new Scanner(System.in);
         System.out.println("Enter the number to be checked.");

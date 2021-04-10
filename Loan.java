@@ -36,7 +36,7 @@ class Loan
         System.out.println("The interest to be paid : "+interest);
         System.out.println("The total amount to be paid : "+amount);
     }
-    void main(){
+    void main(String args[]){
         Loan jai = new Loan();
         jai.getData();
         jai.compute();

@@ -1,6 +1,6 @@
 class series
 {
-    public static void main()
+    public static void main(String args[])
     {
         // 1,4,7,10,...
         int i, n=1;
