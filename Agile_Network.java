@@ -20,8 +20,9 @@ class Agile_Network {
             amount = 250+1000;
     }
     void display(){
-        System.out.println("Your Name\t\t\tYour Speed of network\t\t\tThe amount to be paid by you");
-        System.out.println(name+"\t\t\t\t\t"+speed+"\t\t\t\t\t\t"+amount);
+        System.out.println("Your Name\t\t|\tYour Speed of network\t\t|\tThe amount to be paid by you");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(name+"\t\t\t|\t\t"+speed+"\t\t\t|\t\t"+amount);
     }
     public static void main(String args[]){
         Agile_Network jai = new Agile_Network();
