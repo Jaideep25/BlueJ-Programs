@@ -31,7 +31,7 @@ class Salary {
         System.out.println("Phone number : " + ph);
         System.out.println("Subject Specialization : " + sub);
         System.out.println("Monthly Salary : " + msal);
-        System.out.println("Income Tax : Rs." + tax);
+        System.out.println("Income Tax : /20B9" + tax);
     }
 
     public static void main(String args[]) {
