@@ -12,11 +12,11 @@ class Agile_Network {
         speed = in.nextInt();
     }
     void calculate(){
-        if(speed<=200)
+        if(speed == 200)
             amount = 275+1000;
-        else if(speed<=300)
+        else if(speed == 300)
             amount = 500+1000;
-        else if(speed<=500)
+        else if(speed == 500)
             amount = 250+1000;
     }
     void display(){
