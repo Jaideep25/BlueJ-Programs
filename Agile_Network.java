@@ -13,11 +13,11 @@ class Agile_Network {
     }
     void calculate(){
         if(speed == 200)
-            amount = 275+1000;
+            amount = 275 + 1000;
         else if(speed == 300)
-            amount = 500+1000;
+            amount = 500 + 1000;
         else if(speed == 500)
-            amount = 250+1000;
+            amount = 750 + 1000;
     }
     void display(){
         System.out.println("Your Name\t\t|\tYour Speed of network\t\t|\tThe amount to be paid by you");
