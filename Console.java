@@ -67,6 +67,7 @@ public class Console {
                        System.out.println("Have A good day!! :) ");
                        break;
                     }
+                    scanObject.close();
         }
     }
 }

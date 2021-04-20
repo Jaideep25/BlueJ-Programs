@@ -11,6 +11,7 @@ class RecordPrg9
         b = in.nextInt();
         System.out.println("Enter the 3rd number");
         c = in.nextInt();
+        in.close();
         if((a*a)+(b*b)==(c*c))
             System.out.println("The following numbers can form a Pythagorean triplet");
         else

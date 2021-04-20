@@ -11,6 +11,7 @@ class trichk
         b = in.nextDouble();
         System.out.println("Enter the 3rd side of the triangle");
         c = in.nextDouble();
+        in.close();
         if((a+b>c)&&(b+c>a)&&(a+c>b))
         {
            System.out.println("Triangle is possible");

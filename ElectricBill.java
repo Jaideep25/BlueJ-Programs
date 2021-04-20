@@ -10,6 +10,7 @@ public class ElectricBill
         System.out.println("Enter name of the customer and the units consumed");
         n=in.nextLine();
         units=in.nextInt();
+        in.close();
     }
     void calculate()
     {

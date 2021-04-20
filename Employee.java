@@ -9,6 +9,7 @@ class Employee
         System.out.println("Enter the name of the employee and the basic salary");
         name=in.next();
         basic=in.nextDouble();
+        in.close();
         if(basic<=10000)
         {
             da=10.0/100*basic;

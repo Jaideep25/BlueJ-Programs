@@ -7,6 +7,7 @@ class discount
         double input, dis = 0, amt;
         System.out.println("ENTER THE TOTAL COST");
         input = in.nextDouble();
+        in.close();
         {
             if(input<=5000)
             dis = (5/100)*input;

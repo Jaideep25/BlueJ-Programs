@@ -7,6 +7,7 @@ class Circle
         Scanner x=new Scanner(System.in);
         System.out.println("Enter radius of the circle");
         r=x.nextDouble();
+        x.close();
     }
     void calculate()
     {

@@ -8,6 +8,7 @@ class CPSP
           System.out.println("Enter the CP & SP of the article");
           CP = in.nextDouble();
           SP = in.nextDouble();
+          in.close();
           if(SP>CP)
           {
              PP=(SP-CP)/CP*100.0;

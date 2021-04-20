@@ -11,6 +11,7 @@ class SwitchInt
         b = in.nextInt();
         System.out.println("Enter the choice : \n A for ADDITION \n S for SUBTRACTION \n M for MULTIPLICATION \n OR \n D for DIVISION");
         ch = in.next().charAt(0);
+        in.close();
         switch(ch)
         {
             case 'A':

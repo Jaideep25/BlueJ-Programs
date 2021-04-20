@@ -13,6 +13,7 @@ class HW_11
         x=in.nextDouble();
         y=in.nextDouble();
         z=in.nextDouble();
+        in.close();
         sum = x+y+z+a+b+c;
         avg = sum/6.0;
         System.out.println("Sum of x, y, z, a, b and c ="+sum);

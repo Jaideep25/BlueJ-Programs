@@ -8,7 +8,7 @@ public class chk
         String st=in.nextLine();
         String s=st.toUpperCase();
         s=" " +s;
-        
+        in.close();
         char ch;
         int i,count=0;
         for(i=0;i<s.length()-1;i++)

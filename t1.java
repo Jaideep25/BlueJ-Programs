@@ -20,5 +20,6 @@ class t1
              a = s*s;
              System.out.println("Area of the square = "+a);
             }
+            in.close();
         }
 }

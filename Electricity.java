@@ -11,6 +11,7 @@ class Electricity
      name=in.nextLine();
      System.out.println("Enter the units consumed:");
      u=in.nextInt();
+     in.close();
      if(u<=200)
         amt=u*4;
      else if(u>200 && u<=500)

@@ -10,6 +10,7 @@ class lib
         name = in.nextLine();
         System.out.println("Enter the number of days the book is returned late");
         d = in.nextDouble();
+        in.close();
         if(d<=5)
            f = 0.4*d;
         

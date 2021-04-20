@@ -16,6 +16,7 @@ class divisiblity
         int m = 0;
         System.out.println("Enter a number");
         m = in.nextInt();
+        in.close();
         if((m%5==0)&&(m%3!=0))
             System.out.println("Number is divisible only by 5");
         if((m%3==0)&&(m%5!=0))

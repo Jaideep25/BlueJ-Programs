@@ -3,7 +3,6 @@ class forloop
 {
     public static void main(String args[])
     {
-        int q=1;
         for(int i=5; i>=1; i--)
         {
             //int n=1;

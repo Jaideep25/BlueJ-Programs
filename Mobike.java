@@ -32,6 +32,7 @@ class Mobike
         bno = in.nextInt();
         System.out.println("Enter the number of days the bike has been taken out for rent");
         days = in.nextInt();
+        in.close();
     }
     void compute(){
         if(days<=5)

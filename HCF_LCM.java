@@ -28,5 +28,6 @@ class HCF_LCM
             break;
         }
         while(s.equalsIgnoreCase("yes"));
+        in.close();
     }
 }

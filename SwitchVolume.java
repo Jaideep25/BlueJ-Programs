@@ -36,5 +36,6 @@ class SwitchVolume
             default :
             System.out.println("Wrong Choice");
         }
+        ab.close();
     }
 }

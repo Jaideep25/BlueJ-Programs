@@ -13,6 +13,7 @@ class taxi
         taxino = in.nextLine();
         System.out.println("ENTER THE KILOMETERS TRAVELLED");
         km = in.nextDouble();
+        in.close();
         if(km<=10)
         amt = 25*km;
         else if(km>10 && km<=30)

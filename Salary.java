@@ -15,6 +15,7 @@ class Salary {
         sub = in.next();
         System.out.println("Enter monthly salary");
         msal = in.nextDouble();
+        in.close();
     }
 
     void calculate() {

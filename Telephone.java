@@ -27,6 +27,7 @@ class Telephone
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the number of calls made in a month");
         call = in.nextInt();
+        in.close();
     }
     void compute(){
         if(call<=100)

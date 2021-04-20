@@ -7,6 +7,7 @@ class VowelCheck
         char alpha;
         System.out.println("ENTER A LETTER");
         alpha = x.next().charAt(0);
+        x.close();
         switch(alpha)
         {
             case 'A' :

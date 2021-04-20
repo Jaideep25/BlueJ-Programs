@@ -12,6 +12,7 @@ class Interest
         term=in.nextDouble ();
         System.out.println("Enter the age");
         age=in.nextInt();
+        in.close();
         if(age<=60)
         {
             if(term<=1)

@@ -9,6 +9,7 @@ class UCL
         {
             System.out.println("Enter 0 to stop OR enter any other number to calculate");
             n = ob.nextInt();
+            ob.close();
             if(n==0)
                 break;
             else if(n>0 && n%2==0)

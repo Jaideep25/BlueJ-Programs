@@ -11,6 +11,7 @@ class SI
         p=in.nextDouble();
         r=in.nextDouble();
         t=in.nextDouble();
+        in.close();
         SI = (p*r*t)/100.0;
         System.out.println("Principal = "+p);
         System.out.println("Rate of Intrest = "+r);

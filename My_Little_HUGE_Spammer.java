@@ -6,5 +6,6 @@ class My_Little_HUGE_Spammer
         Scanner in = new Scanner(System.in);
         for(int i=14;i<=1000;i++)
             System.out.println(i);
+        in.close();
     }
 }

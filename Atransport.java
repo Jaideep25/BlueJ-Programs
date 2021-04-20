@@ -9,6 +9,7 @@ public class Atransport
         System.out.println("Enter name of the customer and weight of the parcel in Kgs");
         name=in.nextLine();
         w=in.nextInt();
+        in.close();
     }
     void calculate()
     {

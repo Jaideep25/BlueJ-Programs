@@ -10,6 +10,7 @@ class Agile_Network {
         name = in.nextLine();
         System.out.println("Enter the speed of your network");
         speed = in.nextInt();
+        in.close();
     }
     void calculate(){
         if(speed == 200)

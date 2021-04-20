@@ -16,6 +16,7 @@ class MidTermTest
         else if(call>160){
             bill = 80*0.6+80*0.5+(call-160)*0.4;
         }
+        in.close();
         System.out.println("NUMBER OF CALLS = "+call);
         System.out.println("BILL = "+bill+" Ruppee");
     }

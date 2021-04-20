@@ -3,7 +3,6 @@
 // IP of any host name
 import java.net.*;
 import java.io.*;
-import java.util.*;
 import java.net.InetAddress;
 
 public class System_Public_IP_Finder

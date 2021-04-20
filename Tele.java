@@ -10,6 +10,7 @@ class Tele
         name = in.nextLine();
         System.out.println("Number of calls made by you");
         call = in.nextInt();
+        in.close();
     }
     void compute(){
         if(call<=100)

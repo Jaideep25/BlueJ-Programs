@@ -26,6 +26,7 @@ class Loan
         rate = in.nextDouble();
         System.out.println("Enter the years to repay the loan");
         time = in.nextDouble();
+        in.close();
     }
     void compute(){
         interest = (principal*rate*time)/100;

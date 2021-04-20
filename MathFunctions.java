@@ -3,7 +3,7 @@ class MathFunctions
     public static void main(String args[])
     {
         int p=4, q=3;int a=81, b=100, c=125, d=729;
-        double x=35.89612, y=806.24, z=110.5;
+        double x=35.89612, y=806.24;
         System.out.println("Square root of "+a+" = "+Math.sqrt(a));
         System.out.println("Square root of "+b+" = "+Math.sqrt(b));
         System.out.println("Square root of "+a+" = "+Math.cbrt(c));

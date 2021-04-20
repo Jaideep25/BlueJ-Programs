@@ -1,4 +1,3 @@
-import java.util.*;
 class tri
 {
     public static void main(String args[])

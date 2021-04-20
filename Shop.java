@@ -9,6 +9,7 @@ class Shop
           String gift = "";
           System.out.println("Enter the amount of purchase");
           p = in.nextDouble();
+          in.close();
         if(p<=2000){
            dr = 5.0;
            gift = "Wall Clock";

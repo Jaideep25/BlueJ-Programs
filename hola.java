@@ -7,7 +7,7 @@ class hola
         int n;
         System.out.println("Enter the number");
         n=in.nextInt();
-
+        in.close();
         if((n%5==0) && (n%3!=0))
             System.out.println("The number is divisible only by 5");
         if((n%3==0) && (n%5!=0))
