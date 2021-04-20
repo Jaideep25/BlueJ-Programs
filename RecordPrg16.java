@@ -7,6 +7,7 @@ class RecordPrg16
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter the number of passengers");
         n = sc.nextInt();
+        sc.close();
         while(i<=n)
         {
             System.out.println("Enter the age of the passengers");

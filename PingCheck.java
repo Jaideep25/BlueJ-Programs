@@ -32,6 +32,7 @@ public class PingCheck {
         String s = "";
         System.out.println("Enter the URL, for which you want to check the IP address");
         s = in.nextLine();
+        in.close();
         /**
          * By Jaideep25@Github.io
          */

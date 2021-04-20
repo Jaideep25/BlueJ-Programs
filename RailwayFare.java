@@ -4,7 +4,7 @@ class RailwayFare
     public static void main(String args[])
     {
         Scanner in = new Scanner(System.in);
-        double age, km, rs = 0;
+        double age, km;
         String name = "";
         System.out.println("Enter your name");
         name = in.nextLine();
@@ -12,6 +12,7 @@ class RailwayFare
         age = in.nextInt();
         System.out.println("Enter the distance to be travelled(in km)");
         km = in.nextDouble();
+        in.close();
         if(age<10){
             if(km<=10)
                 System.out.println("Fare for the travel = \u20b984"+"5");

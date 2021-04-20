@@ -10,6 +10,7 @@ class RecordPrg12
         p=in.nextInt();
         System.out.println("Enter 0 for ground floor, \n 1 for first floor \n 2 for second floor \n 3 for third floor");
         c=in.nextInt();
+        in.close();
         switch(c)
         {
             case 0:

@@ -7,6 +7,7 @@ class RecordPrg14
         System.out.println("Enter 1 for S= (1+2) + (1+2+3) + - - - - - - - - - - (1+2+3+ - - - - - - - n) these series \n 2 for  S = a/2!-a/3!+a/4!-a/5!---------a/20! \n 3 for S = 1/a + 2/a^2 + 3/a^3 + 4/a^4 +-------- n/a^n");
         System.out.println("Enter your choice ");
         int ab = in.nextInt();
+        in.close();
         switch(ab)
         {
             case 1 : 

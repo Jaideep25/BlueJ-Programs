@@ -16,6 +16,7 @@ class Result
         s4=in.nextInt();
         s5=in.nextInt();
         s6=in.nextInt();
+        in.close();
         tot=s1+s2+s3+s4+s5+s6;
         per=tot/600*100;
         if(per>=85)

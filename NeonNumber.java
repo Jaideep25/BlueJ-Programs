@@ -8,6 +8,7 @@ public class NeonNumber
         int num=ob.nextInt();
         int square=num*num;
         int sum=0;
+        ob.close();
         while(square!=0)//Loop to find the sum of digits.
         {
             int a=square%10;

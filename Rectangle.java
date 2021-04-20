@@ -19,6 +19,7 @@ class Rectangle
         Scanner in = new Scanner(System.in);
         length = in.nextDouble();
         breadth = in.nextDouble();
+        in.close();
     }
     void calculate(){
         area = length*breadth;

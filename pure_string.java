@@ -1,4 +1,3 @@
-import java.util.*;
 class pure_string
 {
     public static void main(String args[])

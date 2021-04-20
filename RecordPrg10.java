@@ -7,6 +7,7 @@ class RecordPrg10
         int days = 0;
         System.out.println("Enter the number of days");
         days = in.nextInt();
+        in.close();
         double fineamt = 0;
         if(days <= 5)
             fineamt = days*0.40;

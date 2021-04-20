@@ -8,6 +8,7 @@ class RecordPrg11
         double c = 0;
         System.out.println("Enter the gallons of water consumed");
         q = in.nextDouble();
+        in.close();
         if(q<=45)
             System.out.println("NO Tax");
         else if(q>=46 && q<=75)

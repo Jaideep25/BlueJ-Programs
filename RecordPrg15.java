@@ -10,6 +10,7 @@ class RecordPrg15
         no = in.nextInt();
         System.out.println("Enter \n 1 : Neon number \n 2 : Duck number");
         ab = in.nextInt();
+        in.close();
         switch(ab)
         {
             case 1:

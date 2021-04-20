@@ -14,6 +14,7 @@ class qwer
         choice=x.nextInt();
         System.out.println("Enter the number");
         n=x.nextInt();
+        x.close();
         switch(choice)
         {
             case 1: sum=(n*(n+1))/2.0;

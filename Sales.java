@@ -5,10 +5,11 @@ class Sales
     double sales_value, commission;
     public void acceptData()
     {
-        Scanner inp=new Scanner(System.in);
+        Scanner inp = new Scanner(System.in);
         System.out.println("Enter name of the Salesman and sales value");
         salesman_name=inp.nextLine();
         sales_value=inp.nextDouble();
+        inp.close();
     }
 
     public void calculateCommission()

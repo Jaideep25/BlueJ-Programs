@@ -10,6 +10,7 @@ class Salary_UserDefined
         name = in.nextLine();
         System.out.println("Enter your salary");
         basic = in.nextInt();
+        in.close();
     }
     void calculate(){
         da = (35/100.0)*basic;
@@ -25,5 +26,8 @@ class Salary_UserDefined
     public static void main(String args[])
     {
         Salary_UserDefined jai = new Salary_UserDefined();
+        jai.input();
+        jai.calculate();
+        jai.display();
     }
 }

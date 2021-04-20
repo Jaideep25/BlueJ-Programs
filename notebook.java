@@ -6,6 +6,7 @@ class notebook
         Scanner in = new Scanner(System.in);
         int n = 0;
         n = in.nextInt();
+        in.close();
         if(n==10)
             System.out.println("WELCOME!!");
         }

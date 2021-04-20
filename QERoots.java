@@ -8,6 +8,7 @@ class QERoots
         int a, b, c; double d=0, r1, r2;
         System.out.println("Enter the value of a");
         a=in.nextInt();
+        in.close();
         if(a==0)
            System.out.println("a=0, a b and c do not form QE");
         else

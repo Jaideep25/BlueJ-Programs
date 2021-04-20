@@ -10,6 +10,7 @@ class Palindrome_Armstrong_Perfect_Automorphic
         System.out.println("Enter your choice");
         System.out.println("1:Palindrome number \t 2:Amstrong number \n 3:Perfect number \t 4:Automorphic number");
         ch = in.nextInt();
+        in.close();
         switch(ch)
         {
             case 1:

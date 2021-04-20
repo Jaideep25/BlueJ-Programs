@@ -9,11 +9,10 @@ public class chk
         String s=st.toUpperCase();
         s=" " +s;
         in.close();
-        char ch;
         int i,count=0;
         for(i=0;i<s.length()-1;i++)
         {
-            ch=s.charAt(i);
+            s.charAt(i);
             if((s.charAt(i) == ' ') && (s.charAt(i+1) != ' '))
             {
                 count++;
