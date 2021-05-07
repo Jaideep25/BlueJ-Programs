@@ -18,7 +18,7 @@ class Compound_Record {
     void display(){
         System.out.println("Principal : "+p);
         System.out.println("Compound Interest : "+ci);
-        System.out.println("Amount : "+ca);
+        System.out.println("Amount : \u20B9"+ca);
     }
     public static void main(String args[]){
         Compound_Record jai = new Compound_Record();

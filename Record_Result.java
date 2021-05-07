@@ -30,10 +30,4 @@ class Record_Result {
         System.out.println("Your percentage : "+per);
         System.out.println("Your grade : "+grade);
     }
-    public static void main(String args[]){
-        Record_Result jai = new Record_Result();
-        jai.inputData();
-        jai.calculate();
-        jai.display();
-    }
 }
