@@ -50,6 +50,7 @@ public class PingCheck {
         System.out.println("Enter the IP address given above (IP address is the digits given after the link), to show the ping of the above link!");
         String ip = "";
         ip = in.nextLine();
+        in.close();
         runSystemCommand("ping " + ip);
     }
 }
