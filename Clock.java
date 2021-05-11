@@ -75,9 +75,9 @@ class ClockDial extends JPanel{
         g.fillRect(0, 0, getWidth(), getHeight());
         g.setColor(Color.WHITE);
         g.fillOval(5, 5,480,480);
-        g.setColor(Color.BLUE);
+        g.setColor(Color.BLACK);
         g.fillOval(10, 10,470,470);
-        g.setColor(Color.YELLOW);
+        g.setColor(Color.WHITE);
         g.fillOval(237,237,15,15);
         g.setFont(g.getFont().deriveFont(Font.BOLD,32));
 
