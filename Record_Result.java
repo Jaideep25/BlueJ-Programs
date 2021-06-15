@@ -12,22 +12,29 @@ class Record_Result {
         in.close();
     }
     void calculate(){
-        per = (total/600)*100;
-        if(per<35)
-            grade = "Fail";
-        else if((per>=35)&&(per<=49))
-            grade = "Third Class";
-        else if((per>=50)&&(per<=59))
-            grade = "Second Class";
-        else if((per>=60)&&(per<=84))
-            grade = "Firt Class";
-        else if(per>=85)
+        per = (total/600.0)*100;
+        if(per>=85)
             grade = "Distinction";
+        else if(per>=60 && per<85)
+            grade = "First Class";
+        else if(per>=50 && per<60)
+            grade = "Second Class";
+        else if(per>=35 && per<50)
+            grade = "Third Class";
+        else
+            grade = "Fail";
     }
     void display(){
         System.out.println("Your name : "+name);
         System.out.println("Your total marks scored : "+total);
         System.out.println("Your percentage : "+per);
         System.out.println("Your grade : "+grade);
+    }
+    public static void main (String args[])
+    {
+        Record_Result stud = new Record_Result();
+        stud.inputData();
+        stud.calculate();
+        stud.display();
     }
 }

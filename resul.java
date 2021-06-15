@@ -15,18 +15,17 @@ public class resul
     }
     public void calculate()
     {
-        per=(total/600)*100;
-        System.out.println(per);
-        if(per>=85)
-            grade = "Distinction";
-        else if(per>=60 && per<85)
-            grade = "First Class";
-        else if(per>=50 && per<60)
-            grade = "Second Class";
-        else if(per>=35 && per<50)
-            grade = "Third Class";
-        else
+        per = (total/600)*100;
+        if(per<35)
             grade = "Fail";
+        else if((per>=35)&&(per<=49))
+            grade = "Third Class";
+        else if((per>=50)&&(per<=59))
+            grade = "Second Class";
+        else if((per>=60)&&(per<=84))
+            grade = "Firt Class";
+        else if(per>=85)
+            grade = "Distinction";
     }
     public void display()
     {
