@@ -12,7 +12,7 @@ class Record_Result {
         in.close();
     }
     void calculate(){
-        per = (total/600.0)*100;
+        per = (total*100)/600;
         if(per>=85)
             grade = "Distinction";
         else if(per>=60 && per<85)

@@ -64,22 +64,22 @@ class ClockDial extends JPanel{
 
     Clock parent;
     public ClockDial(Clock pt){
-        setSize(520,530);
+        setSize(7020,530);
         parent=pt;
     }
 
    
     @Override
  public void paintComponent(Graphics g) {
-        g.setColor(Color.BLACK);
+        g.setColor(Color.orange);
         g.fillRect(0, 0, getWidth(), getHeight());
-        g.setColor(Color.WHITE);
+        g.setColor(Color.cyan);
         g.fillOval(5, 5,480,480);
-        g.setColor(Color.BLACK);
+        g.setColor(Color.orange);
         g.fillOval(10, 10,470,470);
-        g.setColor(Color.WHITE);
+        g.setColor(Color.BLUE);
         g.fillOval(237,237,15,15);
-        g.setFont(g.getFont().deriveFont(Font.BOLD,32));
+        g.setFont(g.getFont().deriveFont(Font.ITALIC,32));
 
         for(int i=1;i<=12;i++)
             g.drawString(Integer.toString(i),240-(i/12)*11+(int)(210*Math.sin(i*Math.PI/6)),253-(int)(210*Math.cos(i*Math.PI/6)));
