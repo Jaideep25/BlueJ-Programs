@@ -12,7 +12,7 @@ public class System_Public_IP_Finder
         // Returns the instance of InetAddress containing
         // local host name and address
         InetAddress localhost = InetAddress.getLocalHost();
-        System.out.println("System IP Address : " +
+        System.out.println("Public IP Address : " +
             (localhost.getHostAddress()).trim());
         /**
          * By Jaideep25@Github.io
@@ -33,6 +33,6 @@ public class System_Public_IP_Finder
         {
             systemipaddress = "Cannot Execute Properly";
         }
-        System.out.println("Public IP Address: " + systemipaddress +"\n");
+        System.out.println("System IP Address: " + systemipaddress +"\n");
     }
 }
