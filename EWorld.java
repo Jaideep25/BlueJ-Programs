@@ -33,6 +33,7 @@ class EWorld {
         else if (totCost > 50000)
             dis = 30.0 / 100 * totCost;
         amt = totCost - dis;
+        
     }
 
     void display() {

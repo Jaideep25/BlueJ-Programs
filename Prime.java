@@ -7,7 +7,7 @@ public class Prime {
                 ctr++;
             }
         }
-        if(ctr==2)
+        if(ctr>=2)
             return 0;
         else
             return 1;

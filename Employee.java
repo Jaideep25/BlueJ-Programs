@@ -4,10 +4,11 @@ class Employee
     public static void main(String args[])
     {
         Scanner in=new Scanner(System.in);
-        String name;
-        double basic, da=0, sa=0, pf, gs, ns;
-        System.out.println("Enter the name of the employee and the basic salary");
+        String name, empno;
+        double basic, da=0, sa=0, pf, gross, net;
+        System.out.println("Enter the name of the employee, the empno and the basic salary");
         name=in.next();
+        empno = in.next();
         basic=in.nextDouble();
         in.close();
         if(basic<=10000)
@@ -31,9 +32,9 @@ class Employee
             sa=12.0/100*basic;
         }
         pf=8.33/100*basic;
-        gs=basic+da+sa;
-        ns=gs-pf;
+        gross=basic+da+sa;
+        net=gross-pf;
         System.out.println("Name\tBasic\tGross Salary\tNetSalary");
-        System.out.println(name+"\t"+basic+"\t"+gs+"\t\t"+ns);
+        System.out.println(name+"\t"+basic+"\t"+gross+"\t\t"+net);
     }
 }

@@ -27,9 +27,8 @@ public class movieMagic {
             message = "Semi-Hit";
         else if(rating <= 4.4f)
             message = "Hit";
-        else
-            message = "Super-hit";
-        
+        else if(rating<=5.0f)
+            message = "Super-hit";else message="Flop";
         System.out.println("Title of movie : "+title);
         System.out.println("Rating of movie : "+message);
     }
