@@ -6,8 +6,9 @@ public class Prime {
             if(n%i==0){
                 ctr++;
             }
+            System.out.println("Chk ctr :   "+ctr); /* Used only to test, can comment it out!*/
         }
-        if(ctr>=2)
+        if(ctr==2)
             return 0;
         else
             return 1;
