@@ -1,3 +1,4 @@
+
 /*
 Define a class Telephone having the following description:
 Data members/Instance variables :
@@ -19,22 +20,25 @@ void display() : to display all the details in tabular form.
 Define main method, create object of the class and call the member methods.
  */
 import java.util.*;
-class Telephone
-{
+
+class Telephone {
     int call;
     double charge = 200, billAmount = 0;
-    void getData(){
+
+    void getData() {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the number of calls made in a month");
         call = in.nextInt();
         in.close();
     }
-    void compute(){
-        if(call<=100)
-            billAmount = call*0+charge;
-        else if((call>100)&&(call<=300))
-            billAmount = ((call-100)*1.50)+200;
+
+    void compute() {
+        if (call <= 100)
+            billAmount = call * 0 + charge;
+        else if ((call > 100) && (call <= 300))
+            billAmount = ((call - 100) * 1.50) + 200;
     }
-    void display(){
+
+    void display() {
     }
 }

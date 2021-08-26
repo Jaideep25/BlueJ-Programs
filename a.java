@@ -1,5 +1,4 @@
 // Java implementation to find Cost price
-import java.util.*;
 
 class solution
 {

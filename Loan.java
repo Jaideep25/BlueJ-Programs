@@ -1,3 +1,4 @@
+
 /*
 Write a program to model a class with the specifications as given below:
 Class name : Loan
@@ -15,10 +16,11 @@ void display() : to display principal, interest and amount
 Define main method, create object of the class and call the member methods.
  */
 import java.util.*;
-class Loan
-{
+
+class Loan {
     double principal, rate, time, interest, amount;
-    void getData(){
+
+    void getData() {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the amount of loan sanctioned");
         principal = in.nextDouble();
@@ -28,16 +30,19 @@ class Loan
         time = in.nextDouble();
         in.close();
     }
-    void compute(){
-        interest = (principal*rate*time)/100;
-        amount = principal+interest;
+
+    void compute() {
+        interest = (principal * rate * time) / 100;
+        amount = principal + interest;
     }
-    void display(){
-        System.out.println("The amount of loan sanctioned : "+principal);
-        System.out.println("The interest to be paid : "+interest);
-        System.out.println("The total amount to be paid : "+amount);
+
+    void display() {
+        System.out.println("The amount of loan sanctioned : " + principal);
+        System.out.println("The interest to be paid : " + interest);
+        System.out.println("The total amount to be paid : " + amount);
     }
-    void main(String args[]){
+
+    void main(String args[]) {
         Loan jai = new Loan();
         jai.getData();
         jai.compute();

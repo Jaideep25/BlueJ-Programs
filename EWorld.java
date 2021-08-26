@@ -21,6 +21,7 @@ class EWorld {
         System.out.println("Enter the name and total cost of items purchased");
         name = in.next();
         totCost = in.nextDouble();
+        in.close();
     }
 
     void compute() {
@@ -33,7 +34,7 @@ class EWorld {
         else if (totCost > 50000)
             dis = 30.0 / 100 * totCost;
         amt = totCost - dis;
-        
+
     }
 
     void display() {
@@ -55,5 +56,6 @@ class EWorld {
         EWorld abc = new EWorld(n1, p1);
         abc.compute();
         abc.display();
+        in.close();
     }
 }

@@ -13,6 +13,6 @@ public class WiFi_IP_Finder {
         byte[] ip = localhost.getAddress();
         InetAddress address = InetAddress.getByAddress(ip);
         if (address.isReachable(1000))
-            System.out.println("Your Wireless network IP address = "+address);
+            System.out.println("Your Wireless network IP address = " + address);
     }
 }

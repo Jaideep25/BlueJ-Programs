@@ -27,6 +27,7 @@ public class Population {
         t1 = in.nextInt();
         System.out.print("Enter the present year : ");
         t2 = in.nextInt();
+        in.close();
     }
 
     void calculate() {
