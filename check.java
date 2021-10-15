@@ -6,3 +6,4 @@ public class check {
         System.out.println(z);
     }
 }
+
