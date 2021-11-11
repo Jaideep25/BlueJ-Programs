@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Solids {
     public double volume(double r, double h) {
+
         double vol = (1 / 3.0) * (22 / 7.0) * r * r * h;
         return vol;
     }
@@ -12,14 +13,14 @@ public class Solids {
     }
 
     public static void main(String args[]) {
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);Solids am = new Solids();
         System.out.println("Enter the radius and height for the volume of the cone");
         double r = in.nextDouble();
         double h = in.nextDouble();
-        System.out.println("Volume of cone :" + Solids.volume(r, h));
+        System.out.println("Volume of cone :" + am.volume(r, h));
         System.out.println("Enter the radius for volume of sphere");
         r = in.nextDouble();
-        System.out.println("Volume of sphere : " + Solids.volume(r));
+        System.out.println("Volume of sphere : " + am.volume(r));
         in.close();
     }
 }
