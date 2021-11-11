@@ -11,8 +11,6 @@ public class Population {
         grate = 0;
         n = 0;
         past = 0;
-        t1 = 0;
-        t2 = 0;
     }
 
     void input() {
@@ -37,9 +35,9 @@ public class Population {
     }
 
     void display() {
-        System.out.println("Name of the city : " + city);
+        System.out.println("\n\nName of the city : " + city);
         System.out.println("Difference in the years : " + n);
-        System.out.println("Growth rate : " + grate + "%");
+        System.out.println("Growth rate : " + grate + "%\n\n");
     }
 
     public static void main(String args[]) {
