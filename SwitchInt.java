@@ -1,33 +1,32 @@
 import java.util.*;
-class SwitchInt
-{
-    public static void main(String args[])
-     {
+
+class SwitchInt {
+    public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
-        int a,b;
+        int a, b;
         char ch;
         System.out.println("Enter 2 numbers");
         a = in.nextInt();
         b = in.nextInt();
-        System.out.println("Enter the choice : \n A for ADDITION \n S for SUBTRACTION \n M for MULTIPLICATION \n OR \n D for DIVISION");
+        System.out.println(
+                "Enter the choice : \n A for ADDITION \n S for SUBTRACTION \n M for MULTIPLICATION \n OR \n D for DIVISION");
         ch = in.next().charAt(0);
         in.close();
-        switch(ch)
-        {
+        switch (ch) {
             case 'A':
-            System.out.println("SUM = "+(a+b));
-            break;
+                System.out.println("SUM = " + (a + b));
+                break;
             case 'S':
-            System.out.println("DIFFERENCE = "+(a-b));
-            break;
+                System.out.println("DIFFERENCE = " + (a - b));
+                break;
             case 'M':
-            System.out.println("MULTIPLICATION = "+(a*b));
-            break;
+                System.out.println("MULTIPLICATION = " + (a * b));
+                break;
             case 'D':
-            System.out.println("DIVISION = "+(a/b));
-            break;
-            default :
-            System.out.println("Invalid Choice");
-        } 
+                System.out.println("DIVISION = " + (a / b));
+                break;
+            default:
+                System.out.println("Invalid Choice");
+        }
     }
 }

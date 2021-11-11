@@ -18,14 +18,17 @@ public class Population {
         System.out.print("Enter the name of the city : ");
         city = in.nextLine();
         System.out.print("Population of past year : ");
-        t1 = in.nextInt();
+        past = in.nextInt();
         System.out.print("Population of present year : ");
+        present = in.nextInt();
+        System.out.print("Enter the past year : ");
+        t1 = in.nextInt();
+        System.out.print("Enter the present year : ");
         t2 = in.nextInt();
+        in.close();
     }
 
     void calculate() {
-        past = t1;
-        present = t2;
         n = t2 - t1;
         double div = present / past;
         double na = n;

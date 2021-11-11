@@ -30,5 +30,6 @@ public class ProfitLoss {
         sp = in.nextDouble();
         ProfitLoss jai = new ProfitLoss(sp, cp);
         jai.display();
+        in.close();
     }
 }

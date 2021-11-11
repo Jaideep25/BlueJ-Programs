@@ -19,5 +19,6 @@ public class Factorial {
             l+=2;
         }
         System.out.print("Sum of series : "+tot);
+        in.close();
     }
 }

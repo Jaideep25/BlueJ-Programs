@@ -1,12 +1,13 @@
+
 // Java program to reverse a number
 // and find if it is a palindrome or not
 import java.util.*;
+
 class Palindrome_UserDefined {
-  
+
     // Iterative function to
     // reverse the digits of number
-    static int reversNumber(int n)
-    {
+    static int reversNumber(int n) {
         int reversed_n = 0;
         while (n > 0) {
             reversed_n = reversed_n * 10 + n % 10;
@@ -14,10 +15,9 @@ class Palindrome_UserDefined {
         }
         return reversed_n;
     }
-  
+
     // Main function
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n;
         System.out.println("Enter your number");

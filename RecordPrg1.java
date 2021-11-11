@@ -1,7 +1,5 @@
-class RecordPrg1
-{
-    public static void main(String args[])
-    {
+class RecordPrg1 {
+    public static void main(String args[]) {
         System.out.print("Country\t\t\t\tCapital\n\n");
         System.out.print("India\t\t\t\tDelhi\n");
         System.out.print("Afghanistan\t\t\tKabul\n");

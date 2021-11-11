@@ -1,8 +1,6 @@
 // a program to print the names of 5 cricketers with their countries
-class Country_cricketers
-{
-    public static void main(String args[])
-    {
+class Country_cricketers {
+    public static void main(String args[]) {
         System.out.println("Name\t\t\tCountry");
         System.out.println("Virat Kholi\t\tIndia");
         System.out.println("Jame Andreson\t\tEngland");

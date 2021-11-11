@@ -1,3 +1,4 @@
+
 /*
 Define a class Mobike with the following specifications:
 Instance variables/Data members :
@@ -18,11 +19,12 @@ xxxx xxxx xxxx xxxx xxxx
 Write main method, create object of the class and invoke the member methods
  */
 import java.util.*;
-class Mobike
-{
+
+class Mobike {
     String name;
     int phno, bno, days, charge;
-    void input(){
+
+    void input() {
         Scanner in = new Scanner(System.in);
         System.out.println("Your name??");
         name = in.nextLine();
@@ -34,21 +36,24 @@ class Mobike
         days = in.nextInt();
         in.close();
     }
-    void compute(){
-        if(days<=5)
-            charge = 500*days;
-        else if((days>5)&&(days<=10))
-            charge = (5*500)+((days-5)*400);
-        else if(days>10)
-            charge = (5*500)+(5*400)+((days-10)*300);
+
+    void compute() {
+        if (days <= 5)
+            charge = 500 * days;
+        else if ((days > 5) && (days <= 10))
+            charge = (5 * 500) + ((days - 5) * 400);
+        else if (days > 10)
+            charge = (5 * 500) + (5 * 400) + ((days - 10) * 300);
     }
-    void display(){
-        System.out.println("Your bike number is : "+bno);
-        System.out.println("Your phone number is : "+phno);
-        System.out.println("Youe name is : "+name);
-        System.out.println("The amount to be paid by you for the rent of the bike is : "+charge);
+
+    void display() {
+        System.out.println("Your bike number is : " + bno);
+        System.out.println("Your phone number is : " + phno);
+        System.out.println("Youe name is : " + name);
+        System.out.println("The amount to be paid by you for the rent of the bike is : " + charge);
     }
-    void main(String args[]){
+
+    void main(String args[]) {
         Mobike jai = new Mobike();
         jai.input();
         jai.compute();
