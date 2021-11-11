@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class Solids {
-    public static double volume(double r, double h) {
+    public double volume(double r, double h) {
         double vol = (1 / 3.0) * (22 / 7.0) * r * r * h;
         return vol;
     }
 
-    public static double volume(double r) {
+    public double volume(double r) {
         double vol = (4 / 3.0) * (22 / 7.0) * r * r * r;
         return vol;
     }
