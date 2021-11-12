@@ -9,7 +9,7 @@ public class SelectionSort {
          
        System.out.print("Enter Array Size : ");  
        size = scan.nextInt();  
-         
+       scan.close();
        System.out.print("Enter Array Elements : \n\n");  
        for(i=0; i<size; i++)  
        {  

@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Prime {
     public static int isComposite(int n) {
         int i, ctr = 0;
@@ -14,7 +13,6 @@ public class Prime {
         else
             return 1;
     }
-
     public static void main(String args[]) {
         int a, y;
         Scanner in = new Scanner(System.in);
