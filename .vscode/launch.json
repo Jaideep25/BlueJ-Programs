@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch BinaryToString",
+      "request": "launch",
+      "mainClass": "BinaryToString",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"

@@ -1,52 +1,46 @@
-import java.util.*;
 
-class StringToBinary {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.Scanner;
 
-    // utility function
-    static void strToBinary(String s) {
-        int n = s.length();
+public class StringToBinary {
 
-        for (int i = 0; i < n; i++) {
-            // convert each char to
-            // ASCII value
-            int val = Integer.valueOf(s.charAt(i));
-
-            // Convert ASCII value to binary
-            String bin = "";
-            while (val > 0) {
-                if (val % 2 == 1) {
-                    bin += '1';
-                } else
-                    bin += '0';
-                val /= 2;
-            }
-            bin = reverse(bin);
-
-            System.out.print(bin+" ");
-        }
-    }
-
-    static String reverse(String input) {
-        char[] a = input.toCharArray();
-        int l, r = 0;
-        r = a.length - 1;
-
-        for (l = 0; l < r; l++, r--) {
-            // Swap values of l and r
-            char temp = a[l];
-            a[l] = a[r];
-            a[r] = temp;
-        }
-        return String.valueOf(a);
-    }
-
-    // Driver code
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the word which you want to convert to");
-        String s = in.nextLine();
+        System.out.println("The word to convert to string : ");
+        String input = in.nextLine();
+        String result = convertStringToBinary(input);
         in.close();
-        strToBinary(s);
+        System.out.println(result);
+
+        // pretty print the binary format
+        System.out.println(prettyBinary(result, 8, " "));
+
     }
 
+    public static String convertStringToBinary(String input) {
+
+        StringBuilder result = new StringBuilder();
+        char[] chars = input.toCharArray();
+        for (char aChar : chars) {
+            result.append(String.format("%8s", Integer.toBinaryString(aChar)) // char -> int, auto-cast
+                    .replaceAll(" ", "0") // zero pads
+            );
+        }
+        return result.toString();
+
+    }
+
+    public static String prettyBinary(String binary, int blockSize, String separator) {
+
+        List<String> result = new ArrayList<>();
+        int index = 0;
+        while (index < binary.length()) {
+            result.add(binary.substring(index, Math.min(index + blockSize, binary.length())));
+            index += blockSize;
+        }
+
+        return result.stream().collect(Collectors.joining(separator));
+    }
 }
