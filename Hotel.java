@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Hotel {
     public static void main(String args[]) {
         double tariff = 0, disc, day, tot = 0;
