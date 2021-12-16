@@ -24,6 +24,6 @@ class taxi {
         System.out.println("Name of the customer = " + name);
         System.out.println("Taxi Number = " + taxino);
         System.out.println("Kilometers covered = " + km);
-        System.out.println("Amount to be payed = \u20b984" + amt);
+        System.out.println("Amount to be payed = \u20b9" + amt);
     }
 }
