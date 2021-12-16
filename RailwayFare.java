@@ -14,25 +14,25 @@ class RailwayFare {
         in.close();
         if (age < 10) {
             if (km <= 10)
-                System.out.println("Fare for the travel = \u20b984" + "5");
+                System.out.println("Fare for the travel = \u20b9" + "5");
             else if (km > 10 && km <= 50)
-                System.out.println("Fare for the travel = \u20b984" + "20");
+                System.out.println("Fare for the travel = \u20b9" + "20");
             else if (km > 50)
-                System.out.println("Fare for the travel = \u20b984" + "50");
+                System.out.println("Fare for the travel = \u20b9" + "50");
         } else if (age > 10 && age <= 60) {
             if (km <= 10)
-                System.out.println("Fare for the travel = \u20b984" + "10");
+                System.out.println("Fare for the travel = \u20b9" + "10");
             else if (km > 10 && km <= 50)
-                System.out.println("Fare for the travel = \u20b984" + "40");
+                System.out.println("Fare for the travel = \u20b9" + "40");
             else if (km > 50)
-                System.out.println("Fare for the travel = \u20b984" + "80");
+                System.out.println("Fare for the travel = \u20b9" + "80");
         } else if (age > 60) {
             if (km <= 10)
                 System.out.println("Fare for the travel = \u20b984" + "4");
             else if (km > 10 && km <= 50)
                 System.out.println("Fare for the travel = \u20b984" + "15");
             else if (km > 50)
-                System.out.println("Fare for the travel = \u20b984" + "35");
+                System.out.println("Fare for the travel = \u20b9" + "35");
         }
 
         System.out.println("NAME OF THE CUSTOMER = " + name);

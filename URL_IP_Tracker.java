@@ -1,13 +1,17 @@
 
 // Java program to demonstrate
 // how to fetch public IP Address
+import java.util.*;
 import java.net.*;
 import java.net.InetAddress;
 
 class URL_IP_Tracker {
     public static void main(String args[]) throws UnknownHostException {
         // The URL for which IP address needs to be fetched
-        String s = "";
+        //http://bot.whatismyipaddress.com
+        Scanner in = new Scanner(System.in);
+        String s = in.nextLine();
+        in.close();
         /**
          * By Jaideep25@Github.io
          */

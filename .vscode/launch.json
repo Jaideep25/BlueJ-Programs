@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch StringToBinary",
+      "request": "launch",
+      "mainClass": "StringToBinary",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
+      "name": "Launch WifiPassword",
+      "request": "launch",
+      "mainClass": "WifiPassword",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
+      "name": "Launch PigLearntLatin",
+      "request": "launch",
+      "mainClass": "PigLearntLatin",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
       "name": "Launch BinaryToString",
       "request": "launch",
       "mainClass": "BinaryToString",

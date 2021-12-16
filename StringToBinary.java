@@ -8,14 +8,14 @@ public class StringToBinary {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("The word to convert to string : ");
+        System.out.println("The word to convert to binary : ");
         String input = in.nextLine();
         String result = convertStringToBinary(input);
         in.close();
         System.out.println(result);
 
         // pretty print the binary format
-        System.out.println(prettyBinary(result, 8, " "));
+        //System.out.println(prettyBinary(result, 8, " "));
 
     }
 

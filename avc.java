@@ -1,4 +1,3 @@
-import java.util.*;
 class avc { 
     //1st PART
     public static void printSum(int n) { 

@@ -44,8 +44,7 @@ public class PingCheck {
             // It means the URL is invalid
             System.out.println("Invalid URL");
         }
-        System.out.println(
-                "Enter the IP address given above (IP address is the digits given after the link), to show the ping of the above link!");
+        System.out.println("Enter the IP address given above (IP address is the digits given after the link), to show the ping of the above link!");
         String ip = "";
         ip = in.nextLine();
         in.close();
