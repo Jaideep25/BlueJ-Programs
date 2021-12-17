@@ -13,14 +13,19 @@ public class Solids {
     }
 
     public static void main(String args[]) {
-        Scanner in = new Scanner(System.in);Solids am = new Solids();
+        Scanner in = new Scanner(System.in);
+        Solids jam = new Solids();
+
         System.out.println("Enter the radius and height for the volume of the cone");
         double r = in.nextDouble();
         double h = in.nextDouble();
-        System.out.println("Volume of cone :" + am.volume(r, h));
+
+        System.out.println("Volume of cone :" + jam.volume(r, h));
         System.out.println("Enter the radius for volume of sphere");
         r = in.nextDouble();
-        System.out.println("Volume of sphere : " + am.volume(r));
+
+        System.out.println("Volume of sphere : " + jam.volume(r));
+        
         in.close();
     }
 }

@@ -21,6 +21,7 @@ class EWorld {
         System.out.println("Enter the name and total cost of items purchased");
         name = in.next();
         totCost = in.nextDouble();
+        
         in.close();
     }
 
@@ -48,14 +49,21 @@ class EWorld {
         jai.input();
         jai.compute();
         jai.display();
+
+        /* From here parameterized constructor starts :-
         String n1;
         double p1;
+
         System.out.println("Enter the name and total cost of items purchased");
+
         n1 = in.next();
         p1 = in.nextDouble();
+
         EWorld abc = new EWorld(n1, p1);
         abc.compute();
         abc.display();
+        */
+
         in.close();
     }
 }

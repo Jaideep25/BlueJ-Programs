@@ -14,7 +14,7 @@ class Record_Result {
     }
 
     void calculate() {
-        per = (total * 100) / 600;
+        per = (total*100) /600;
         if (per >= 85)
             grade = "Distinction";
         else if (per >= 60 && per < 85)

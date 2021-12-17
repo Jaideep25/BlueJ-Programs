@@ -15,10 +15,13 @@ public class movieMagic {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the title of the movie");
         title = in.nextLine();
+
         System.out.println("Enter the year of the movie");
         year = in.nextInt();
+
         System.out.println("Enter the rating of the movie");
         rating = in.nextFloat();
+
         in.close();
     }
 
@@ -34,7 +37,9 @@ public class movieMagic {
             message = "Super-hit";
         else
             message = "Flop";
+
         System.out.println("Title of movie : " + title);
+        
         System.out.println("Rating of movie : " + message);
     }
 

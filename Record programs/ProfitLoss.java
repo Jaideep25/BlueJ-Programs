@@ -8,16 +8,19 @@ public class ProfitLoss {
         cp = costprice;
     }
 
-    void display() {
+    void caldisplay() {
         if (sp > cp) {
             per = ((sp - cp) / cp) * 100;
+
             System.out.println("\n Profit Percentage =  " + per + "%");
-        } else if (cp > sp) {
-            per = ((cp - sp) / cp) * 100;
-            System.out.println("\n Loss Percentage =  " + per + "%");
-        } else {
-            System.out.println("\n No Profit No Loss! ");
         }
+        else if (cp > sp) {
+            per = ((cp - sp) / cp) * 100;
+
+            System.out.println("\n Loss Percentage =  " + per + "%");
+        } 
+        else
+            System.out.println("\n No Profit No Loss! ");
     }
 
     public static void main(String[] args) {
@@ -28,8 +31,10 @@ public class ProfitLoss {
 
         System.out.print(" Please Enter the Selling Price : ");
         sp = in.nextDouble();
+
         ProfitLoss jai = new ProfitLoss(sp, cp);
-        jai.display();
+        jai.caldisplay();
+        
         in.close();
     }
 }

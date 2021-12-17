@@ -20,7 +20,7 @@ class Compound_Record {
     }
 
     void display() {
-        System.out.println("Principal : " + p);
+        System.out.println("Principal : \u20B9" + p);
         System.out.println("Compound Interest : " + ci);
         System.out.println("Amount : \u20B9" + ca);
     }

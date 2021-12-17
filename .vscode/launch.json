@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Cube",
+      "request": "launch",
+      "mainClass": "Cube",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
       "name": "Launch StringToBinary",
       "request": "launch",
       "mainClass": "StringToBinary",

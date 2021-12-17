@@ -16,7 +16,7 @@ public class Parking2W_Record {
 
     void calculate() {
         if (hrs <= 4)
-            charge = 5;
+            charge = 5 * hrs;
         else if (hrs <= 10)
             charge = (4 * 5) + ((hrs - 4) * 4);
         else if (hrs <= 18)
@@ -28,7 +28,7 @@ public class Parking2W_Record {
     void display() {
         System.out.println("Your name : " + name);
         System.out.println("Number of hours your vehicle was parked : " + hrs);
-        System.out.println("Amount you need to pay : " + charge);
+        System.out.println("Amount you need to pay : \u20B9" + charge);
     }
 
     public static void main(String args[]) {
