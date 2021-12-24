@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch SDA_FebTemp",
+      "request": "launch",
+      "mainClass": "SDA_FebTemp",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
       "name": "Launch SingleDimensionalArrayStudent",
       "request": "launch",
       "mainClass": "SingleDimensionalArrayStudent",
