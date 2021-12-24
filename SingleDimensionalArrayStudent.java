@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Jaideep25@Videolify
+ */
 public class SingleDimensionalArrayStudent
 {
     public static void main(String args[]) {
@@ -32,7 +35,6 @@ public class SingleDimensionalArrayStudent
             name[index] = t;
         }
         
-        //Display sorted total hours
         for (int i = 0; i < n; i++)
             System.out.println("Student " + (name[i]+1) 
                 + "\t" + totalmarks[i]);
