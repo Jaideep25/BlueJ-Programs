@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Array",
+      "request": "launch",
+      "mainClass": "Array",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumSeries",
+      "request": "launch",
+      "mainClass": "SumSeries",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
       "name": "Launch SDA_FebTemp",
       "request": "launch",
       "mainClass": "SDA_FebTemp",

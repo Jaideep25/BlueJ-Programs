@@ -15,6 +15,6 @@ class MidTermTest {
         }
         in.close();
         System.out.println("NUMBER OF CALLS = " + call);
-        System.out.println("BILL = " + bill + " Ruppee");
+        System.out.println("BILL = ₹" + bill);
     }
 }
