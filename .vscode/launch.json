@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Rad",
+      "request": "launch",
+      "mainClass": "Rad",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sem2Rec1",
+      "request": "launch",
+      "mainClass": "Sem2Rec1",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
+      "name": "Launch Arraayyy",
+      "request": "launch",
+      "mainClass": "Arraayyy",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
+      "name": "Launch Morsie",
+      "request": "launch",
+      "mainClass": "Morsie",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
+      "name": "Launch Zappp",
+      "request": "launch",
+      "mainClass": "Zappp",
+      "projectName": "BlueJ-Programs_ec687a0f"
+    },
+    {
+      "type": "java",
       "name": "Launch Array",
       "request": "launch",
       "mainClass": "Array",
